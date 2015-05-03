@@ -1,3 +1,5 @@
+package com.deadcoderising;
+
 import javax.servlet.ServletRequest;
 
 public class AuditHandler {

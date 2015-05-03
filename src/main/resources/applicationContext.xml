@@ -5,10 +5,10 @@
 	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="auditHandler" class="AuditHandler">
+    <bean id="auditHandler" class="com.deadcoderising.AuditHandler">
     </bean>
 
-    <bean id="auditFilter" class="AuditFilter">
+    <bean id="auditFilter" class="com.deadcoderising.AuditFilter">
         <constructor-arg ref="auditHandler"/>
     </bean>
 </beans>
